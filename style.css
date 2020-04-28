@@ -1,0 +1,57 @@
+*{margin: 0;padding: 0}
+body{font-family: arial;}
+.container{margin: auto;width: 800px}
+
+/*Start Heading*/
+header{width: 100%; background: #000;height: 50px;overflow: hidden;margin-bottom: 30px;}
+header .topLeft{
+	width: 400px;
+	float: left;
+}
+
+header .topLeft img{
+	margin-top: 7px;
+}
+
+header .topRight{
+	width: 400px;
+	float: right;
+}
+header .topRight img{
+	margin-top: 7px;}
+/*End of Heading*/
+
+/*Start of Article*/
+article{overflow: hidden;margin-bottom:30px; }
+article h1{font-weight: normal;margin-bottom: 20px;font-size: 35px}
+article .middleLeft{float: left;width: 400px;}
+article p::first-letter{font-size: x-large;color: #666}
+p{text-align: justify;line-height: 20px;margin-bottom: 10px;}
+article .middleLeft a{color: #fff;background: #e74c3c;text-decoration: none;padding:10px;display: inline-block;font-size: 13px;}
+article .middleLeft a:hover{
+	text-decoration: underline;
+}
+article .middleRight{float: right;width: 400px;}
+article .middleRight img{width: 200px;margin: 140px 30px 0;}
+/*End of Article*/
+
+/*Start of Banner*/
+.banner{background: #ecf0f1;margin-bottom: 30px;padding: 5px 0 40px;}
+.banner h1{margin-top: 20px;margin-bottom: 10px;}
+/*End of Banner*/
+
+/*Start of Programs*/
+.programs{overflow: hidden;margin-bottom: 20px;}
+.programs h2{margin-bottom: 10px;font-weight: normal;}
+.programs .programs1{width: 160px;float: left;}
+.programs .programs1 img{margin-bottom: 10px;}
+.programs .programsItem{text-align: center;width: 120px;}
+.programs .programsItem h5{text-align: left;}
+.programs h5{margin-bottom: 10px;font-weight: normal;}
+/*End of Programs*/
+
+/*Start of Footer*/
+footer{overflow: hidden;height: 50px;background: #000;width: 100%}
+footer ul{list-style: none;}
+footer ul li{float: left;}
+footer ul li a{color: #fff; line-height: 50px;padding: 0 10px;border-right:1px solid #fff;font-size: 12px;text-decoration: none;}
